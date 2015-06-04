@@ -33,14 +33,14 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="Contact.aspx">Contact</a></li>
 
                             </li><!-- dropdown -->
                         </ul><!-- nav navbar-nav -->
 
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#">About</a></li>
+                            <li><a href="About.aspx">About</a></li>
                         </ul>
                         <!-- nav navbar-nav navbar-right -->
                     </div>
@@ -49,13 +49,18 @@
                 <section id="MainContent">
                     <asp:ContentPlaceHolder ID="cpMainContent" runat="server"></asp:ContentPlaceHolder>
                 </section>
-                <aside id="Sidebar">Sidebar goes here</aside>
-                <footer>Footer goes here</footer>
-            </div>
+
+                <footer class="container-fluid">
+                    <nav class="nav navbar-inverse navbar-fixed-bottom">
+                            <h4>&copy;Copyright 2015</h4>
+                    </nav>
+                </footer>
+            </div><!-- PageWrapper -->
         </form>
     </div>
     <!-- Javascript library section -->
     <script src="/Scripts/jquery-1.9.1.min.js"></script>
     <script src="/Scripts/bootstrap.min.js"></script>
+
 </body>
 </html>

@@ -4,7 +4,15 @@
     <title>Welcome to Hello World!</title>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cpMainContent" runat="server">
-    <h1>Hello World!</h1>
+    <div class="jumbotron">
+        <div class="container">
+
+            <h1>Hello, world!</h1>
+            <p>...</p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+
+        </div>
+     </div>
 
 
 </asp:Content>
